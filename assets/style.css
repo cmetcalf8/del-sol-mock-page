@@ -13,13 +13,14 @@ html, body {
 }
 
 .left-column {
-    width: 65%;
+    width: 50%;
     position: relative;
 }
 
 .right-column {
-    width: 35%;
+    width: 50%;
     margin-top: 60px;
+    margin-right: 60px;
 }
 
 .left-column img {
@@ -27,4 +28,36 @@ html, body {
     width: auto;
     max-width: 500px;
     max-height: 500px;
+    margin-top: 100px;
+}
+
+.product-information h3 {
+    color: teal;
+}
+
+.product-description h1 {
+    color: teal;
+}
+
+.product-description h2 {
+    color: gray;
+}
+
+.button {
+    background-color: #f44336;
+    border: none;
+    color: black;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    border-radius: 12px;
+    transition-duration: 0.4s;
+    cursor: pointer;
+}
+
+.button:hover {
+    background-color: #f44336;
+    color: white;
 }
